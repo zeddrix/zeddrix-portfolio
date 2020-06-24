@@ -14,6 +14,7 @@ a:hover {
 
 nav {
   background-color: #343a40;
+  padding-right: 2em;
 }
 #nav-zedd {
   display: inline-block;
@@ -26,7 +27,7 @@ nav {
   display: inline-block;
   text-align: right;
   text-decoration: none;
-  color: rgb(33, 165, 158);
+  color: rgb(35, 190, 182);
   float: right;
   padding-top: 1.1em;
   padding-bottom: 1.2em;
@@ -34,10 +35,7 @@ nav {
   font-size: 1.1em;
 }
 .nav-right:hover {
-  color: rgb(44, 190, 183);
-}
-#blog-margin-right {
-  padding-right: 2em;
+  color: rgb(60, 235, 226);
 }
 
 #my-pic {
@@ -46,4 +44,22 @@ nav {
 
 img {
   width: 100%;
+}
+
+.project-item {
+  background: rgb(191, 255, 241);
+  padding: 1em;
+  margin: 1em;
+}
+
+#hobbies-container {
+  text-align: center;
+}
+
+.hobby-item {
+  background: rgb(95, 218, 255);
+  padding: 1em;
+  margin: 1em 5em;
+  display: inline-block;
+  width: 30%;
 }
