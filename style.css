@@ -8,6 +8,7 @@ body {
 a {
 	color: rgb(26, 140, 179);
 	text-decoration: none;
+	font-weight: bold;
 }
 a:hover,
 a:focus {
@@ -55,6 +56,13 @@ a:focus {
 	margin: 1em;
 	border-radius: 10px;
 }
+#introduction__name{
+	font-size: 3em;
+}
+#introduction__description {
+	font-size: 1.3em;
+	margin: 1em 20em;
+}
 #introduction__image {
 	width: 15%;
 }
@@ -84,27 +92,44 @@ a:focus {
 	margin: 5em 3em;
 }
 .hobbies__card {
-	margin: 1em 5em;
+	margin: 1em;
 	display: inline-block;
-	width: 30%;
+	width: 45%;
+	vertical-align: top;
 }
 .projects__card,
 .hobbies__card {
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 10px;
-	padding: 1em;
 }
 .projects__card__image,
 .hobbies__card__image {
 	width: 100%;
 }
 
-.projects__card__name,
+.projects__card__name {
+	text-align: center;
+	font-size: 3rem;
+	margin: 0.2em 0;
+}
+
 .hobbies__card__name {
 	text-align: center;
+	font-size: 2em;
 }
 
 .projects__card__description,
 .hobbies__card__description {
 	text-align: left;
+	padding: 0 1em;
+	font-size: 1.3em;
+}
+
+.projects__card__code-source {
+	color: rgb(211, 106, 124);
+}
+
+.projects__card__work-in-progress {
+	font-size: 0.5em;
+	color: grey;
 }
