@@ -73,7 +73,7 @@ a:focus {
 #introduction__image {
 	width: 15%;
 }
-#introduction__email {
+#introduction__subscribe {
 	border: 2px solid black;
 	padding: 0.3em;
 	margin: 0.5em;
@@ -83,8 +83,8 @@ a:focus {
 	color: white;
 }
 
-#introduction__email:hover,
-#introduction__email:focus {
+#introduction__subscribe:hover,
+#introduction__subscribe:focus {
 	border: 2px solid grey;
 	background: white;
 	color: black;
