@@ -1,79 +1,93 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  font-size: 1.2rem;
 }
 * {
   box-sizing: border-box;
 }
+
 a {
-  color: rgb(26, 140, 179);
+  color: #23acda;
   text-decoration: none;
   font-weight: bold;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: rgb(48, 160, 197);
+  color: #36b4df;
 }
 
-#navbar {
-  background-color: #343a40;
-  padding-right: 2em;
+.main-header {
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  box-sizing: border-box;
+  background: #343a40;
+  padding: 1.5rem 1rem;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-#navbar__zeddrix-fabian {
-  display: inline-block;
-  text-align: left;
-  margin: 0.8em 1em;
-  font-size: 1.5em;
+
+.nav__zeddrix-fabian {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav__zeddrix-fabian:hover {
   color: white;
 }
-.navbar__right {
-  display: inline-block;
-  text-align: right;
-  text-decoration: none;
-  color: rgb(35, 190, 182);
-  float: right;
-  padding: 3px;
-  margin-top: 1.1em;
-  margin-bottom: 1.2em;
-  margin-right: 1em;
-  font-size: 1.1em;
+
+/* .nav {
+  display: none;
+} */
+
+.nav__items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  font-weight: lighter;
 }
-#navbar a {
-  color: rgb(26, 140, 179);
+
+.nav__item a {
+  font-size: 1.3rem;
+  margin: 0 0.75rem;
+  color: #29b1df;
+  font-weight: lighter;
 }
-#navbar a:hover,
-#navbar a:focus {
+
+.nav__item a:hover,
+.nav__item a:active {
   text-decoration: none;
   border-bottom: 3px solid white;
   padding-bottom: 0;
-  color: rgb(67, 194, 236);
+  color: #48d1ff;
 }
 
-#introduction {
+.introduction {
   text-align: center;
   border: 2px solid black;
   padding: 10em 0;
   margin: 1em;
   border-radius: 10px;
 }
-#introduction__name {
+.introduction__name {
   font-family: "Architects Daughter";
   font-size: 3em;
 }
-#introduction__description {
+.introduction__description {
   font-size: 1.3em;
   margin: 1em 20em;
 }
-#introduction__image {
+.introduction__image {
   width: 15%;
 }
-#introduction__subscribe {
+.introduction__subscribe {
   border: 2px solid black;
   padding: 0.3em;
   margin: 0.5em;
@@ -83,19 +97,19 @@ a:focus {
   color: white;
 }
 
-#introduction__subscribe:hover,
-#introduction__subscribe:focus {
+.introduction__subscribe:hover,
+.introduction__subscribe:focus {
   border: 2px solid grey;
   background: white;
   color: black;
 }
 
-#projects,
-#hobbies {
+.projects,
+.hobbies {
   text-align: center;
 }
-#projects__header,
-#hobbies__header {
+.projects__header,
+.hobbies__header {
   text-align: center;
   font-size: 3em;
   margin-top: 3em;
@@ -104,10 +118,10 @@ a:focus {
   padding: 1em;
   border-radius: 10px;
 }
-#projects__header {
+.projects__header {
   background: grey;
 }
-#hobbies__header {
+.hobbies__header {
   background: yellowgreen;
 }
 
@@ -122,7 +136,7 @@ a:focus {
 }
 .projects__card,
 .hobbies__card {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid #00000033;
   border-radius: 10px;
 }
 .projects__card__image,
@@ -149,7 +163,7 @@ a:focus {
 }
 
 .projects__card__code-source {
-  color: rgb(211, 106, 124);
+  color: #d36a7c;
 }
 
 .projects__card__work-in-progress {
