@@ -2,20 +2,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   font-size: 1.2rem;
+  overflow-x: hidden;
 }
 
 * {
-	box-sizing: border-box;
-	user-select: none;
-	-webkit-user-select: none; /* Safari */
-	-khtml-user-select: none; /* Konqueror HTML */
-	-moz-user-select: none; /* Firefox */
-	-ms-user-select: none; /* Internet Explorer/Edge */
+  box-sizing: border-box;
+  user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
 
-	-webkit-user-drag: none;
-	-khtml-user-drag: none;
-	-moz-user-drag: none;
-	-o-user-drag: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+h1 {
+  margin: 0;
 }
 
 a {
@@ -31,6 +36,7 @@ a:focus {
 
 .main-header {
   width: 100%;
+  height: 10vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -81,28 +87,43 @@ a:focus {
 }
 
 .introduction {
+  background: url(img/intro-image.jpg);
+  background-size: cover;
+  position: relative;
+  height: 90vh;
+  width: 100vw;
   text-align: center;
-  border: 2px solid black;
-  padding: 10em 0;
-  margin: 1em;
-  border-radius: 10px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.introduction-contents {
+  /* border: 5px solid white; */
+  height: 90vh;
+  width: 55vw;
+  display: flex;
+	flex-flow: column wrap;
+	/* flex-direction: column;
+	flex-wrap: wrap; */
+	align-items: center;
+	justify-content: center;
+	position: absolute;
 }
 .introduction__name {
   font-family: "Architects Daughter";
   font-size: 3em;
 }
+.introduction__image {
+  max-width: 250px;
+}
 .introduction__description {
   font-size: 1.3em;
-  margin: 1em 20em;
-}
-.introduction__image {
-  width: 15%;
 }
 .introduction__subscribe {
   border: 2px solid black;
+  width: 12rem;
   padding: 0.3em;
   margin: 0.5em;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: 1.5em;
   background: black;
   color: white;
@@ -110,7 +131,6 @@ a:focus {
 
 .introduction__subscribe:hover,
 .introduction__subscribe:focus {
-  border: 2px solid grey;
   background: white;
   color: black;
 }
