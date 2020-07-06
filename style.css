@@ -86,7 +86,7 @@ a:focus {
   color: #48d1ff;
 }
 
-.introduction {
+.intro {
   background: url(img/intro-image.jpg);
   background-size: cover;
   position: relative;
@@ -96,7 +96,7 @@ a:focus {
   border-top: 2px solid black;
   border-bottom: 2px solid black;
 }
-.introduction-contents {
+.intro-contents {
   /* border: 5px solid white; */
   height: 90vh;
   width: 55vw;
@@ -108,17 +108,14 @@ a:focus {
 	justify-content: center;
 	position: absolute;
 }
-.introduction__name {
+.intro-contents__name {
   font-family: "Architects Daughter";
   font-size: 3em;
 }
-.introduction__image {
-  max-width: 250px;
-}
-.introduction__description {
+.intro-contents__description {
   font-size: 1.3em;
 }
-.introduction__subscribe {
+.intro-contents__subscribe {
   border: 2px solid black;
   width: 12rem;
   padding: 0.3em;
@@ -129,8 +126,8 @@ a:focus {
   color: white;
 }
 
-.introduction__subscribe:hover,
-.introduction__subscribe:focus {
+.intro-contents__subscribe:hover,
+.intro-contents__subscribe:focus {
   background: white;
   color: black;
 }
