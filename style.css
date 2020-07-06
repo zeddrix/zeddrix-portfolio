@@ -116,7 +116,7 @@ a:focus {
   font-size: 1.3em;
 }
 .intro-contents__subscribe {
-  border: 2px solid black;
+  border: 2px solid lightgrey;
   width: 12rem;
   padding: 0.3em;
   margin: 0.5em;
@@ -126,10 +126,16 @@ a:focus {
   color: white;
 }
 
-.intro-contents__subscribe:hover,
+.intro-contents__subscribe:hover {
+  background: lightgrey;
+  color: black;
+  border: 2px solid black;
+}
+.intro-contents__subscribe:active,
 .intro-contents__subscribe:focus {
   background: white;
   color: black;
+  border: 2px solid black;
 }
 
 .projects,
