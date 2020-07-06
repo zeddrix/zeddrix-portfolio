@@ -42,22 +42,22 @@ a:focus {
   justify-content: space-between;
 }
 
-.nav__zeddrix-fabian {
+.main-nav__zeddrix-fabian {
   color: white;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
-.nav__zeddrix-fabian:hover {
+.main-nav__zeddrix-fabian:hover {
   color: white;
 }
 
-/* .nav {
+/* .main-nav {
   display: none;
 } */
 
-.nav__items {
+.main-nav__items {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -65,15 +65,15 @@ a:focus {
   font-weight: lighter;
 }
 
-.nav__item a {
+.main-nav__item a {
   font-size: 1.3rem;
   margin: 0 0.75rem;
   color: #29b1df;
   font-weight: lighter;
 }
 
-.nav__item a:hover,
-.nav__item a:active {
+.main-nav__item a:hover,
+.main-nav__item a:active {
   text-decoration: none;
   border-bottom: 3px solid white;
   padding-bottom: 0;
