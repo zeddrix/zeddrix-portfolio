@@ -202,6 +202,19 @@ a:focus {
 .hobbies {
   text-align: center;
 }
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .projects__header,
 .hobbies__header {
   font-size: 2em;
@@ -218,17 +231,9 @@ a:focus {
   background: yellowgreen;
 }
 
-.projects__card {
-  margin: 2.5rem 1rem;
-}
-.hobbies__card {
-  margin: 1em;
-  display: inline-block;
-  width: 45%;
-  vertical-align: top;
-}
 .projects__card,
 .hobbies__card {
+  margin: 1rem;
   border: 1px solid #00000033;
   border-radius: 10px;
 }
@@ -240,7 +245,7 @@ a:focus {
 .projects__card__name {
   text-align: center;
   font-size: 1.75rem;
-  margin: 0.2em 0;
+  margin: 0.2rem 0;
 }
 
 .hobbies__card__name {

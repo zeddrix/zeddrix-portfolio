@@ -1,5 +1,5 @@
 /* DESKTOPS */
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1001px) {
   .main-header {
     padding: 1.5rem 1rem;
   }
@@ -14,7 +14,7 @@
   .main-nav__item a:active {
     border-bottom: 3px solid white;
   }
-  .toggle-button,
+  #toggle-button,
   .mobile-nav,
   .mobile-nav__zeddrix-fabian {
     display: none;
@@ -61,5 +61,11 @@
     text-align: left;
     padding: 0 1em;
     font-size: 1.3em;
+  }
+  .hobbies__card {
+    margin: 1rem;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
   }
 }
