@@ -52,12 +52,28 @@ a:focus {
   justify-content: space-between;
 }
 
+#backdrop {
+  background: #00000099;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+}
+
 .main-nav__zeddrix-fabian,
 .mobile-nav__zeddrix-fabian {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
+
+.main-nav__zeddrix-fabian {
+  align-self: flex-start;
+}
+
 .main-nav__zeddrix-fabian:hover {
   color: white;
 }
@@ -104,10 +120,10 @@ a:focus {
 
 .toggle-button__bar {
   width: 100%;
-  height: 0.2rem;
-  background: black;
+  height: 4px;
+  background: whitesmoke;
   display: block;
-  margin: 0.6rem 0;
+  margin: 7px 0;
 }
 
 .mobile-nav {
