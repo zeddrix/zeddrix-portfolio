@@ -204,13 +204,12 @@ a:focus {
 }
 .projects__header,
 .hobbies__header {
-  text-align: center;
-  font-size: 3em;
-  margin-top: 3em;
-  margin-left: 3em;
-  margin-right: 3em;
-  padding: 1em;
+  font-size: 2em;
+  max-width: 20rem;
+  padding: 1rem;
   border-radius: 10px;
+  text-align: center;
+  margin: 1.5rem auto;
 }
 .projects__header {
   background: grey;
@@ -220,7 +219,7 @@ a:focus {
 }
 
 .projects__card {
-  margin: 5em 3em;
+  margin: 2.5rem 1rem;
 }
 .hobbies__card {
   margin: 1em;
@@ -240,7 +239,7 @@ a:focus {
 
 .projects__card__name {
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.75rem;
   margin: 0.2em 0;
 }
 
@@ -253,7 +252,7 @@ a:focus {
 .hobbies__card__description {
   text-align: left;
   padding: 0 1em;
-  font-size: 1.3em;
+  font-size: 1.2rem;
 }
 
 .projects__card__code-source {
