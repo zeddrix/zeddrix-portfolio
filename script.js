@@ -5,6 +5,7 @@ const backdrop = document.getElementById("backdrop");
 const openMobileNav = () => {
   mobileNav.style.display = "block";
   backdrop.style.display = "block";
+  document.body.style.overflow = "hidden";
 };
 
 const closeMobileNav = () => {
