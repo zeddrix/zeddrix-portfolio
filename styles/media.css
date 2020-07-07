@@ -1,0 +1,35 @@
+/* DESKTOPS */
+@media only screen and (min-width: 1200px) {
+  .main-header {
+    padding: 1.5rem 1rem;
+  }
+  .main-nav__zeddrix-fabian {
+    font-size: 1.5rem;
+  }
+  .main-nav__item a {
+    font-size: 1.3rem;
+    margin: 0 0.75rem;
+  }
+  .main-nav__item a:hover,
+  .main-nav__item a:active {
+    border-bottom: 3px solid white;
+  }
+  .intro {
+    height: 90vh;
+    width: 100vw;
+  }
+  .intro-contents {
+    height: 90vh;
+    width: 55vw;
+  }
+  .intro-contents__name {
+    font-size: 3em;
+  }
+  .intro-contents__description {
+    font-size: 1.3em;
+  }
+  .intro-contents__subscribe {
+    font-size: 1.5em;
+    width: 12rem;
+  }
+}
