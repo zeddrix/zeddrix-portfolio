@@ -1,15 +1,3 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  font-size: 1.2rem;
-  overflow-x: hidden;
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  scrollbar-width: none; /* Firefox */
-}
-body::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
-}
-
 * {
   box-sizing: border-box;
   user-select: none;
@@ -23,11 +11,33 @@ body::-webkit-scrollbar {
   -moz-user-drag: none;
   -o-user-drag: none;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 1.2rem;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+#backdrop {
+  background: #00000099;
+  position: fixed;
+  display: none;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+}
 
 h1 {
   margin: 0;
 }
-
 a {
   color: #23acda;
   text-decoration: none;
@@ -52,24 +62,9 @@ a:focus {
   justify-content: space-between;
 }
 
-#backdrop {
-  background: #00000099;
-  position: fixed;
-  display: none;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 100vw;
-  height: 100vh;
-}
-
 .main-nav__zeddrix-portfolio {
   color: white;
   text-decoration: none;
-}
-
-.main-nav__zeddrix-portfolio {
-  align-self: flex-start;
 }
 
 .main-nav__zeddrix-portfolio:hover {
@@ -102,17 +97,16 @@ a:focus {
   color: #48d1ff;
 }
 
-.toggle-button {
+#toggle-button {
   width: 3rem;
   background: transparent;
   border: none;
   cursor: pointer;
-  padding-top: 0;
-  padding-bottom: 0;
+  margin: 0 0.5rem;
   vertical-align: middle;
 }
 
-.toggle-button:focus {
+#toggle-button:focus {
   outline: none;
 }
 
@@ -162,9 +156,13 @@ a:focus {
   font-size: 1.3rem;
 }
 
+.intro,
+.intro-contents {
+  height: 35vh;
+}
+
 .intro {
   margin-top: 10vh;
-  height: 45vh;
   width: 100vw;
   background: url(../img/intro-image.jpg);
   background-size: cover;
@@ -173,13 +171,10 @@ a:focus {
 }
 .intro-contents {
   /* border: 5px solid white; */
-  height: 45vh;
   width: 55vw;
   left: 1rem;
   display: flex;
   flex-flow: column wrap;
-  /* flex-direction: column;
-	flex-wrap: wrap; */
   align-items: center;
   justify-content: center;
   position: absolute;
