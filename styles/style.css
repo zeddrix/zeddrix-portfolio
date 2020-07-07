@@ -63,23 +63,21 @@ a:focus {
   height: 100vh;
 }
 
-.main-nav__zeddrix-fabian,
-.mobile-nav__zeddrix-fabian {
+.main-nav__zeddrix-portfolio {
   color: white;
   text-decoration: none;
-  font-weight: bold;
 }
 
-.main-nav__zeddrix-fabian {
+.main-nav__zeddrix-portfolio {
   align-self: flex-start;
 }
 
-.main-nav__zeddrix-fabian:hover {
+.main-nav__zeddrix-portfolio:hover {
   color: white;
 }
 
 .main-nav,
-.main-nav__zeddrix-fabian {
+.main-nav__zeddrix-portfolio {
   display: none;
 }
 
@@ -137,13 +135,14 @@ a:focus {
   height: 100vh;
 }
 
-.mobile-nav__title {
+.mobile-nav__zeddrix-portfolio {
   font-size: 1.3rem;
   background: #343a40;
   color: white;
   margin: 0;
   /* height: 10vh; */
   padding: 1.2rem;
+  font-weight: normal;
 }
 
 .mobile-nav__items {
@@ -165,7 +164,7 @@ a:focus {
 
 .intro {
   margin-top: 10vh;
-  height: 35vh;
+  height: 45vh;
   width: 100vw;
   background: url(../img/intro-image.jpg);
   background-size: cover;
@@ -174,7 +173,7 @@ a:focus {
 }
 .intro-contents {
   /* border: 5px solid white; */
-  height: 35vh;
+  height: 45vh;
   width: 55vw;
   left: 1rem;
   display: flex;
@@ -188,9 +187,9 @@ a:focus {
 .intro-contents__name {
   font-family: "Architects Daughter";
 }
-/* .intro-contents__description {
-  font-size: 1.3em;
-} */
+.intro-contents__description {
+  margin: 0.5rem;
+}
 .intro-contents__subscribe {
   font-size: 1em;
   border: 2px solid lightgrey;
