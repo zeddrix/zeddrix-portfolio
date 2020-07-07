@@ -257,6 +257,11 @@ a:focus {
 .hobbies__card__description {
   text-align: left;
   padding: 0 1em;
+}
+
+.projects__card__description,
+.hobbies__card__description,
+.find-template-phrase {
   font-size: 1.2rem;
 }
 
@@ -267,4 +272,9 @@ a:focus {
 .projects__card__work-in-progress {
   font-size: 0.5em;
   color: grey;
+}
+
+.find-template-phrase {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
 }
