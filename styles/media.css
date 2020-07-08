@@ -1,75 +1,80 @@
 /* DESKTOPS */
 @media only screen and (min-width: 1001px) {
-  .main-header {
-    padding: 1.5rem 1rem;
-  }
-  .main-nav__zeddrix-fabian {
-    font-size: 1.5rem;
-  }
-  .main-nav__item a {
-    font-size: 1.3rem;
-    margin: 0 0.75rem;
-  }
-  .main-nav__item a:hover,
-  .main-nav__item a:active {
-    border-bottom: 3px solid white;
-  }
-  #toggle-button,
-  .mobile-nav,
-  .mobile-nav__zeddrix-fabian {
-    display: none;
-  }
-  .main-nav,
-  .main-nav__zeddrix-fabian {
-    display: block;
-  }
-  .intro {
-    height: 90vh;
-    width: 100vw;
-  }
-  .intro-contents {
-    height: 90vh;
-    width: 55vw;
-  }
-  .intro-contents__name {
-    font-size: 3em;
-  }
-  .intro-contents__description {
-    font-size: 1.3em;
-  }
-  .intro-contents__subscribe {
-    font-size: 1.5em;
-    width: 12rem;
-  }
-  .projects__header,
-  .hobbies__header {
-    font-size: 3rem;
-    max-width: 50rem;
-    padding: 3rem;
-  }
-  .projects__card {
-    /* max-height: 80vh; */
-    width: 80vw;
-    margin: 3rem auto;
-  }
-  .projects__card__name {
-    font-size: 3rem;
-    margin: 0.2rem 0;
-  }
-  .projects__card__description,
-  .hobbies__card__description {
-    text-align: left;
-    padding: 0 1em;
-    font-size: 1.3em;
-  }
-  .hobbies__card {
-    margin: 1rem;
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-  }
-  .find-template-phrase {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-  }
+	.main-header {
+		padding: 1.5rem 1rem;
+	}
+	.main-nav__zeddrix-fabian {
+		font-size: 1.5rem;
+	}
+	.main-nav__item a {
+		font-size: 1.3rem;
+		margin: 0 0.75rem;
+	}
+	.main-nav__item a:hover,
+	.main-nav__item a:active {
+		border-bottom: 3px solid white;
+	}
+	#toggle-button,
+	.mobile-nav,
+	.mobile-nav__zeddrix-fabian {
+		display: none;
+	}
+	.main-nav,
+	.main-nav__zeddrix-fabian {
+		display: block;
+	}
+	.intro {
+		height: 90vh;
+		width: 100vw;
+	}
+	.intro-contents {
+		height: 90vh;
+		width: 55vw;
+	}
+	.intro-contents__name {
+		font-size: 3em;
+	}
+	.intro-contents__description {
+		font-size: 1.3em;
+	}
+	.intro-contents__subscribe {
+		font-size: 1.5em;
+		width: 12rem;
+	}
+	.projects__header,
+	.hobbies__header {
+		font-size: 3rem;
+		max-width: 50rem;
+		padding: 3rem;
+	}
+	.projects__card {
+		/* max-height: 80vh; */
+		width: 80vw;
+		margin: 3rem auto;
+	}
+	.projects__card__name {
+		font-size: 3rem;
+		margin: 0.2rem 0;
+	}
+	.projects__card__name.just__color span {
+		font-size: 3.5rem;
+		text-shadow: 3px 3px 1px #a3a3a3;
+		background-color: #fff;
+	}
+	.projects__card__description,
+	.hobbies__card__description {
+		text-align: left;
+		padding: 0 1em;
+		font-size: 1.3em;
+	}
+	.hobbies__card {
+		margin: 1rem;
+		display: inline-block;
+		width: 30%;
+		vertical-align: top;
+	}
+	.find-template-phrase {
+		font-family: "Times New Roman", Times, serif;
+		font-size: 1.5rem;
+	}
 }

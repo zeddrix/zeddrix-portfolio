@@ -157,7 +157,7 @@ a:focus {
 .intro-contents {
 	/* border: 5px solid white; */
 	width: 55vw;
-	/* left: 1rem; */
+	left: 1rem;
 	display: flex;
 	flex-flow: column wrap;
 	align-items: center;
@@ -281,14 +281,16 @@ a:focus {
 }
 
 .projects__card__name.just__color span {
-	text-shadow: 3px 3px 1px #a3a3a3;
+	font-size: 2rem;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px 0px #a3a3a3;
 	background-color: #fff;
 }
 
 .projects__card__name.just__color span:hover,
 .projects__card__name.just__color span:active {
-	background-color: #fff;
 	text-shadow: 1px 1px 0px #a3a3a3;
+	background-color: #fff;
 }
 
 .projects__card__name.jw__guitar__templates {
