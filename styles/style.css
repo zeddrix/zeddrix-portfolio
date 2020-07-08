@@ -62,15 +62,7 @@ a:focus {
 	justify-content: space-between;
 }
 
-.main-nav__zeddrix-portfolio {
-	color: white;
-	text-decoration: none;
-}
-.main-nav__zeddrix-portfolio:hover {
-	color: white;
-}
-.main-nav,
-.main-nav__zeddrix-portfolio {
+.main-nav {
 	display: none;
 }
 
@@ -83,14 +75,14 @@ a:focus {
 }
 .main-nav__item a,
 .mobile-nav__item a {
-	color: #29b1df;
+	color: #ececec;
 	font-weight: lighter;
 }
 .main-nav__item a:hover,
 .main-nav__item a:active {
 	text-decoration: none;
 	padding-bottom: 0;
-	color: #48d1ff;
+	color: #b1b1b1;
 }
 
 #toggle-button {
@@ -122,14 +114,17 @@ a:focus {
 	width: 60%;
 	height: 100vh;
 }
-.mobile-nav__zeddrix-portfolio {
-	font-size: 1.3rem;
+.nav__zeddrix-portfolio {
+	font-size: 1.5rem;
 	background: #343a40;
 	color: white;
 	margin: 0;
 	/* height: 10vh; */
 	padding: 1.2rem;
 	font-weight: normal;
+}
+.nav__zeddrix-portfolio:hover {
+	color: white;
 }
 .mobile-nav__items {
 	width: 100%;
@@ -162,7 +157,7 @@ a:focus {
 .intro-contents {
 	/* border: 5px solid white; */
 	width: 55vw;
-	left: 1rem;
+	/* left: 1rem; */
 	display: flex;
 	flex-flow: column wrap;
 	align-items: center;
@@ -284,19 +279,23 @@ a:focus {
 }
 
 .projects__card__name.just__color span {
-	text-shadow: 1px 1px 0px #a3a3a3;
+	text-shadow: 3px 3px 1px #a3a3a3;
 	background-color: #fff;
 }
 
+.projects__card__name.just__color span:hover,
+.projects__card__name.just__color span:active {
+	background-color: #fff;
+	text-shadow: 1px 1px 0px #a3a3a3;
+}
+
 .projects__card__name.jw__guitar__templates {
-	background: #6d5402
-		linear-gradient(to right, #6d5402, #6d5402, #ecb500, #6d5402, #6d5402);
+	background: #6d5402 linear-gradient(to right, #6d5402, #ecb500);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 .projects__card__name.jw__guitar__templates:hover {
-	background: #6d5402
-		linear-gradient(to right, #ecb500, #ecb500, #6d5402, #ecb500, #ecb500);
+	background: #6d5402 linear-gradient(to left, #6d5402, #ecb500);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: #6d5402;
