@@ -249,33 +249,35 @@ a:focus {
 }
 
 .J {
-	color: #9400d3;
+	color: red;
 }
-
 .u {
-	color: #4b0082;
+	color: yellow;
 }
-
 .s {
-	color: #0000ff;
+	color: rgb(34, 126, 231);
+}
+.t {
+	color: green;
 }
 
-.t,
-.ex-m {
-	color: #00ff00;
+.C {
+	color: purple;
 }
-
-.C,
-.r {
-	color: #ffff00;
+.o-1 {
+	color: #ffa246;
 }
-
-.o {
-	color: #ff7f00;
-}
-
 .l {
-	color: #ff0000;
+	color: yellowgreen;
+}
+.o-2 {
+	color: #ff009d;
+}
+.r {
+	color: #ff6600;
+}
+.exclamation-mark {
+	color: rgb(165, 71, 42);
 }
 
 .projects__card__name.just__color span {
