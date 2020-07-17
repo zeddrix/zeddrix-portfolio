@@ -312,7 +312,7 @@ a:focus {
 
 .tooltip .tooltiptext {
 	visibility: hidden;
-	z-index: 2;
+	z-index: 10;
 	width: 140px;
 	border-radius: 6px;
 	padding: 5px 0;
